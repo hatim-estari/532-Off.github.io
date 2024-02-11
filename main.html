@@ -1,0 +1,172 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>532-off</title>
+    <link rel="shortcut icon" type="x-icon" href="./fichier/LOG.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>  
+    <script src="https://kit.fontawesome.com/6b23b8cd1a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class='loader'>
+      <div class='loaderC'>
+      <img src="fichier/log.png" className='logos'/>
+      </div>
+      <script>
+        window.addEventListener("load", () => {const loader = document.querySelector(".loader");loader.classList.add("loader--hidden");});
+      </script>
+    </div>
+    <div class="bar">
+      <div class="B --hidden"></div>
+      <div class="logo">
+        <img id="LOGO" src="./fichier/log.png">
+      </div>
+      <div class="boton-C --hidden">
+        <button class="barboton">Home</button>
+        <button class="barboton">P.O.T.M</button>
+        <button class="barboton">About us</button>
+        <button class="barboton">Contact</button>
+        <buton class="reordre">
+          <i class="fa-solid fa-bars fa-3x"></i>
+        </buton>
+
+      </div>
+    </div>
+    <div class='Home'>
+      <div class='videoC'>
+          <video autoPlay loop muted playsInline controlsList="nodownload" class='V'>
+              <source src="./fichier/V.mp4"/>
+          </video>
+          <div class="text-container">
+            <h1 id="paragraph1">
+              532-OFF:<br>
+              THE HOME OF MOROCCAN FOOTBALL</h1>
+            <p id="paragraph2">Making Moroccan football worldwide</p>
+          </div>
+          <div class="text-container2">
+            <div class="icon-home">
+              <div class="paragraph3">CHECK ON US:</div>
+              <div class="icona"><img src="./icons/instagram_icon.png"></div>
+              <div class="icona"><img src="./icons/facebook_icon.png"></div>
+              <div class="icona"><img src="./icons/youtube_icon.png"></div>
+              <div class="icona"><img src="./icons/linkedin_icon.png"></div>
+            </div>
+          </div>
+    
+      </div> 
+      <div class="stat">
+        <div class="text1">
+          <div class="t" style="--i: 1;">M</div>
+          <div class="t" style="--i: 2;">A</div>
+          <div class="t" style="--i: 3;">K</div>
+          <div class="t" style="--i: 4;">I</div>
+          <div class="t" style="--i: 5;">N</div>
+          <div class="t" style="--i: 6;">G</div>
+          <div class="t" style="--i: 7;">&nbsp;M</div>
+          <div class="t" style="--i: 8;">O</div>
+          <div class="t" style="--i: 9;">R</div>
+          <div class="t" style="--i: 10;">O</div>
+          <div class="t" style="--i: 11;">C</div>
+          <div class="t" style="--i: 12;">C</div>
+          <div class="t" style="--i: 13;">A</div>
+          <div class="t" style="--i: 14;">N</div>
+          <div class="t" style="--i: 15;">&nbsp;F</div>
+          <div class="t" style="--i: 16;">O</div>
+          <div class="t" style="--i: 17;">O</div>
+          <div class="t" style="--i: 18;">T</div>
+          <div class="t" style="--i: 19;">B</div>
+          <div class="t" style="--i: 20;">A</div>
+          <div class="t" style="--i: 21;">L</div>
+          <div class="t" style="--i: 22;">L</div>
+          <div class="t" style="--i: 23;">&nbsp;W</div>
+          <div class="t" style="--i: 24;">O</div>
+          <div class="t" style="--i: 25;">R</div>
+          <div class="t" style="--i: 26;">L</div>
+          <div class="t" style="--i: 27;">D</div>
+          <div class="t" style="--i: 28;">W</div>
+          <div class="t" style="--i: 29;">I</div>
+          <div class="t" style="--i: 30;">D</div>
+          <div class="t" style="--i: 31;">E</div>
+        </div>
+        <div class="text2">
+          Born out of a passion for the beautiful game, 433 is the embodiment of football culture. By positioning ourselves inside the locker room, we’ve become part of the team and equal to the players. This gives us access to the best moments football has to offer, moments that – before 433 – have never been available to the fans.
+        </div>
+        <div class="statis">
+          <div class="statist">
+            <p class="st">#1 </p>
+            <p class="stadd"> football page in morocco</p>
+          </div>
+          <div class="statist">
+            <p class="st">2M+ </p>
+            <p class="stadd">views montly</p>
+          </div>
+          <div class="statist">
+            <p class="st">5 Years </p>
+            <p class="stadd">of hardwork and displine</p>
+          </div>
+          <div class="statist">
+            <p class="st">500K+ </p>
+            <p class="stadd"> folowers on our page instagram </p>
+          </div>
+        </div>
+        
+        <script>
+          const observer = new IntersectionObserver((entries, observer) => {entries.forEach(entry => {if (entry.isIntersecting) {entry.target.classList.add('animate');observer.unobserve(entry.target);}});});
+          const targets = document.querySelectorAll('.text1, .text2,.statist,.botona');
+          targets.forEach(target => {observer.observe(target);});
+        </script>
+      </div>
+      <div class="madani">
+        <div class="container">
+          <!---->
+           <div class="panel " style="background-image : url(./panels/hakimi.jpg)">
+          <div class="paneltext"><strong>HAKIMI</strong></div>
+           </div> 
+           <div class="panel" style="background-image : url(./panels/ziyech.jpg)">
+          <div class="paneltext"><strong>Ziyach</strong></div>
+           </div>
+           <div class="panel" style="background-image : url(./panels/boufal.jpg)">
+          <div class="paneltext"><strong>Boufal</strong></div>
+           </div>
+           <div class="panel" style="background-image : url(./panels/onahi.jpg)">
+          <div class="paneltext"><strong>Onahi</strong></div>
+           </div>
+           <div class="panel" style="background-image : url(./panels/nesery.jpg)">
+          <div class="paneltext"><strong>En-Nesyri</strong></div>
+           </div>
+           <div class="panel active" style="background-image : url(./panels/nayef.jpg)">
+          <div class="paneltext"><strong>Nayef agred</strong></div>
+           </div>
+        </div>
+        <div class="text">
+          <h1>THE NEWS OF MORROCAN FOOTBALL</h1>
+        </div>
+        <script>
+          const panels = document.querySelectorAll(".panel");
+          panels.forEach((panel) => {panel.addEventListener("mouseover",() => {removeactiveclasses();panel.classList.add("active");})});
+          const removeactiveclasses=()=>{panels.forEach((panel) =>{panel.classList.remove("active");})}
+        </script>
+      </div>
+    </div>
+    <div class="footer"><h2>Follow us in : </h2>
+      <div class="icona">
+        <i class="fa-brands fa-instagram fa-3x" style="color: white;"></i>
+      </div>
+      <div class="icona">
+        <i class="fa-brands fa-facebook-f fa-3x" style="color: white;"></i>
+      </div>
+      <div class="icona">
+        <i class="fa-brands fa-youtube fa-3x" style="color: white;"></i>
+      </div>
+      <div class="icona">
+        <i class="fa-brands fa-linkedin fa-3x" style="color: white;"></i>
+      </div>
+      <p className='P'>
+        <div class="footer-img"><img src="./fichier/LOG.png"></div>
+        <div class="footer-text">&copy;2024 lqwada ddev azbi</div>
+      </p>
+    </div>
+
+  </body>
+</html>
